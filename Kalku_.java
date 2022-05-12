@@ -30,10 +30,13 @@ public class Kalku_ {
                 vysledek = a / b;
                 break;
         }
-        if ((volba > 0) && (volba < 5)) ;
+        if ((volba > 0) && (volba < 5))
         {
                 System.out.println("Vysledek je: " + vysledek);
-
+        }
+        else
+        {
+            System.out.println("Neexistujici volba");
         }
         System.out.println("Děkuji za použití kalkulačky");
     }
